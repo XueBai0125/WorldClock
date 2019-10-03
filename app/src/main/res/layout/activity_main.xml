@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_marginBottom="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Local Time Around the world"
+                android:textColor="#FF5722"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#FAD961"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="SYDNEY"
+                        android:textColor="#FCFCFC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/syd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#F8F6F6"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:background="@drawable/sydney"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#C1FFC107"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="BEIJING"
+                        android:textColor="#F1EDED"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#F7F6F6"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:background="@drawable/beijing"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#ADFF9C07"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="NEW YORK"
+                        android:textColor="#FAF7F7"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ny"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#FAF9F9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:background="@drawable/newyork"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#FAA82D"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="TOKYO"
+                        android:textColor="#FCF8F8"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#F5F2F2"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:background="@drawable/tokyo"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#F89021"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="SAN FRANCISCO"
+                        android:textColor="#FCF9F9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/san"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#FCF9F9"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:background="@drawable/sanfran"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#FF8400"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="PARIS"
+                        android:textColor="#F8F6F6"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/paris"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#FAF8F8"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:background="@drawable/paris"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/hr_12"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="12hr"/>
+        <TextView
+            android:id="@+id/hr_24"
+            android:layout_marginLeft="100dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_bg_no"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="24hr"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
